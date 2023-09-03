@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="nav-bar navbar-expand-sm bg-dark navbar-dark">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="" class="nav-link">home</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container text-center">
+      <h1>welcome to password generator</h1>
+      <form action="/password">
+        <select id="numberOfChar" name="length">
+          length
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+        </select>
+        <input type="checkbox" name="uppercase" /> uppercase
+        <input type="checkbox" name="lowercase" /> lowercase
+        <input type="checkbox" name="special" /> special
+        <input
+          type="submit"
+          value="Generate password"
+          class="btn btn-primary"
+        />
+      </form>
+    </div>
+  </body>
+</html>
